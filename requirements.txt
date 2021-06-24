@@ -1,0 +1,7 @@
+discord
+requests
+bs4
+nepali_date
+pytz
+pause
+datetime
