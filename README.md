@@ -6,6 +6,7 @@ Basic Features Included:
 - Quote
 - Nepali Time & Date
 - Password Generator
+- Hex Token Generator
 
 
 ### How to built other commands ?
@@ -23,7 +24,8 @@ Some other packages are also required which are at [requirements.txt](/requireme
 
 
 ## Support
-Anyone can use it anywhere on discord for themselves. If you wanna support, credit to this repo will be appreciated. 😬
+Anyone can use it anywhere on discord for themselves.  
+If you wanna support, credit to this repo will be appreciated. 😬
 
 ## Official Discord
 [https://discord.gg/enffyWXHnW](https://discord.gg/enffyWXHnW)
