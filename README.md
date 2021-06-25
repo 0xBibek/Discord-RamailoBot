@@ -5,7 +5,11 @@ Basic Features Included:
 - Meme
 - Quote
 - Nepali Time & Date
+- Password Generator
 
+
+### How to built other commands ?
+If you are wondering to built other commands like crypto prices, rashifal etc. Head over to this [Repo](https://github.com/0xBibek/py). There you'll find other python codes which i uploaded for everyone, which will help you to understand.
 
 ## Installation
 

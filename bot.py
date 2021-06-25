@@ -13,6 +13,7 @@ from config import BOT_TOKEN
 import utils.td as timee
 import utils.quotes as quoteG
 import utils.memes as memeG
+import utils.passgen as passGen
 
 client = discord.Client()
 TOKEN = BOT_TOKEN
@@ -38,11 +39,16 @@ async def on_message(message):
     meme = memeG.meme()
     await message.channel.send(meme)
 
+  if message.content == "?pass":
+    meme = memeG.meme()
+    await message.channel.send(passGen)
 
   if message.content == "?help":
     embed = discord.Embed(title=" [ Help ] ", description="Commands list")
+    embed.add_field(name="?td", value="Nepali Time Date")
     embed.add_field(name="?meme", value="Random Meme")
     embed.add_field(name="?quote", value="Random quotes")
+    embed.add_field(name="?pass", value="Password Generator")
     await message.channel.send(content=None, embed=embed)
 
 

@@ -1,3 +1,7 @@
+#####
+#### Author: Bibek 
+#### Github: 0xBibek
+#####
 import bs4
 import requests
 import time
